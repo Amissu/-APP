@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E0E0E0;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 3cm;
+    border: solid 2px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction:row
+}
+
+.box{
+    width: 100%;
+    height: 48vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border:solid 2px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.border{
+    height:5cm;
+    width:10cm;
+    border:solid 2px;
+    display: flex;
+
+}
+
+.tip{
+    width: 18vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.tips{
+    width: 35vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.box2{
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border:solid 2px;
+
+    border-radius: 25px;
+    background-color: #fff;
+    background-size: 100%;
+}
+
+.foot{
+    width: 100%;
+    position: absolute;
+    height: 3cm;
+    bottom: 0;
+    border-radius: 2px;
+
+}
+
+.new{
+    width: 100%;
+    height: 3cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: white;
+    border-radius: 25px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.head1{
+    width: 100%;
+    display: flex;
+
+    height: 5.7cm;
+    background-color:#E0E0E0;
+    justify-content: space-between;
+}
+.head2{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    height: 5.7cm;
+
+    position: absolute;
+    margin-top: 13cm;
+}
+.box3{
+    width: 100%;
+    height: 36vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border:solid 2px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.head3{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    height: 5.7cm;
+
+    position: absolute;
+    margin-top: 23.5cm;
+
+}
+
+.box4{
+    width: 100%;
+    height: 36vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border:solid 2px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#input1 {
+    text-align: center;
+    font-size: 0.3rem;
+    width: 100%;
+    height: 3rem;
+    padding: 0.24rem 0;
+    line-height: 0.3rem;
+    box-sizing: border-box;
+}
+
+.bos{
+    height: 14cm;
+    width: 10cm;
+    border: solid 1px;
+    background-color: white;
+    border-color: white;
+}
